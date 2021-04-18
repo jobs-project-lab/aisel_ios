@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AISEL</string>
+    <string name="facebook_app_id">245334946489238</string>
+    <string name="fb_login_protocol_scheme">46d4fdacbecc6be15160a968af1a851d</string>
+</resources>

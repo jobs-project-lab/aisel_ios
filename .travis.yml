@@ -22,3 +22,11 @@ before_deploy:
   - cd .. 
   - zip -r app.ipa Payload 
   - popd
+deploy:
+  provider: releases
+  api_key:o
+    secure: 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
+  file: build/ios/iphoneos/app.ipa
+  skip_cleanup: true #important or your built app would be deleted
+  on:
+    repo: aisel_ios
